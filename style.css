@@ -88,3 +88,18 @@ body {
 .rodapé {
     padding-left: 90px;
 }
+
+/*mobile*/
+@media(max-width: 450px){
+    .container{
+        flex-direction: column;
+    }
+
+    .container1{
+        min-height: auto;
+        border-right: none;
+        border-bottom: 5px;
+    }
+
+    
+}
