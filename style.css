@@ -35,11 +35,16 @@ body {
 
 .container {
     background-color: #2e004e;
-    padding-top: 30px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 30px;
-    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#bio-container {
+    flex: 1 1 20%;
+    min-height: 100vh;
+    text-align: center;
+    padding: 30px 12px;
+    border-right: 5px ;
 }
 
 .box1 {
