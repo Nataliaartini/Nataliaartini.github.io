@@ -2,16 +2,18 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #1C1C1C ;
+    background-color: #1C1C1C !important;
 }
 .row {
     margin: 0;
     width: 100%;
     --bs-gutter-x: 0 !important;
 }
-* {
-    font-family: 'Roboto';
+* 
+{
+    font-family: 'Roboto' !important;
 }
+
 .cabecalho h1 {
     color: "#008080";
 }
@@ -42,10 +44,6 @@ body {
 
 .box1 {
     height: 390px;
-    /* margin: 15px; */
-    /* margin-right: 30px;
-    margin-left: 80px;
-    margin-bottom: 30px; */
     padding: 15px !important;
     background: #FFFAFA;
     text-align: justify;
