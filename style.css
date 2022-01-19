@@ -93,6 +93,9 @@ body {
 @media(max-width: 450px){
     .container{
         flex-direction: column;
+        min-height: auto;
+        border-right: none;
+        border-bottom: 5px;
     }
 
     .container1{
@@ -101,5 +104,9 @@ body {
         border-bottom: 5px;
     }
 
-    
+    .box1{
+        margin: 10px auto;
+        max-width: 100%;
+        line-height: 26px;
+    }
 }
